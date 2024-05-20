@@ -8,3 +8,5 @@ export {
   requireOptionalNativeModule,
   reloadAppAsync,
 } from 'expo-modules-core';
+
+export { useEvent } from './hooks/useEvent';

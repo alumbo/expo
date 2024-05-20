@@ -23,6 +23,8 @@ export type EventSubscription = {
  * Its implementation is written in C++ and common for all the platforms.
  */
 export declare class EventEmitter<TEventsMap extends EventsMap = Record<never, never>> {
+  #_events_map_?: TEventsMap;
+
   /**
    * Creates a new event emitter instance.
    */

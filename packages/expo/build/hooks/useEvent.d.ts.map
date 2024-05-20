@@ -1,0 +1,1 @@
+{"version":3,"file":"useEvent.d.ts","sourceRoot":"","sources":["../../src/hooks/useEvent.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,YAAY,EAAE,SAAS,EAAE,MAAM,oDAAoD,CAAC;AAalG,wBAAgB,QAAQ,CAAC,UAAU,SAAS,SAAS,EACnD,OAAO,EAAE,YAAY,CAAC,UAAU,CAAC,EACjC,KAAK,EAAE,MAAM,UAAU,GACtB,UAAU,CAAC,UAAU,CAAC,MAAM,UAAU,CAAC,CAAC,GAAG,EAAE,CAc/C"}

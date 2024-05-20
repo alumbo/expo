@@ -2,8 +2,9 @@ import Slider from '@react-native-community/slider';
 import { Picker } from '@react-native-picker/picker';
 import SegmentedControl from '@react-native-segmented-control/segmented-control';
 import { Platform } from 'expo-modules-core';
+import { EventEmitter, EventsMap } from 'expo-modules-core/build/ts-declarations/EventEmitter';
 import { useVideoPlayer, VideoView, VideoSource, VideoPlayerEvents } from 'expo-video';
-import React, { useCallback, useEffect, useRef } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { PixelRatio, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import Button from '../../components/Button';
@@ -137,6 +138,8 @@ export default function VideoScreen() {
     },
     [player]
   );
+
+  useEvent(player);
 
   useEffect(() => {
     if (logEvents) {
